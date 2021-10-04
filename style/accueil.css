@@ -1,0 +1,78 @@
+header{
+    text-align: center;
+    background-color: rgb(60, 132, 173);
+    color: #000000;
+    padding: 10px 10px 10px;
+    margin: 0;
+    border: thick double #000000;
+    font-size: 20px;
+}
+body {
+    background-color: rgb(175, 209, 232);
+    max-width: 60em;
+    margin: 2em auto;
+}
+#searchPage {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+#searchPage {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+#searchPage:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+div button {
+    display: inline-block;
+    background-color: #9f8ac9;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 30px;
+}
+div button:hover{
+    background-color: #21143d;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+hr{
+    margin-bottom: 25px;
+}
+ul{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin:10px;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+main a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#preface{
+    text-align: justify;
+    font-size: large;
+}
+a{
+    color: #1d79a4;
+}
